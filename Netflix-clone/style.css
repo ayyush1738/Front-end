@@ -292,3 +292,30 @@ body {
     height: 1000px;
     border-bottom: 8px solid #373737;
 }
+
+.text5 h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.toggle-btn {
+    background-color: #373737;
+    color: white;
+    height: 90px;
+    width: 80%;
+    margin-top: 10px;
+    line-height: 90px;
+}
+
+.toggle-btn p{
+    margin-left: 20px;
+}
