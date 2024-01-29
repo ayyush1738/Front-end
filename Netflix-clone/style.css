@@ -314,8 +314,24 @@ body {
     width: 80%;
     margin-top: 10px;
     line-height: 90px;
+    display: flex;
 }
 
 .toggle-btn p{
     margin-left: 20px;
+    font-size: 25px;
+}
+
+.toggle-btn i{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    margin-left: 1100px;
+}
+
+.section5 h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
 }
