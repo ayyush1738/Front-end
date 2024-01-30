@@ -289,7 +289,7 @@ body {
 }
 
 .section5 {
-    height: 1000px;
+    height: 920px;
     border-bottom: 8px solid #373737;
 }
 
@@ -334,4 +334,51 @@ body {
     color: white;
     text-align: center;
     margin-top: 70px;
+}
+
+div input{
+    position: absolute;
+    left: 0;
+    right: 225px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 450px;
+    width: 380px;
+    font-weight: 100;
+    height: 55px;
+    border-radius: 4px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    box-shadow: inset rgb(20, 19, 19) 0px 10px 80px;
+    border-width: 0.2px;
+}
+
+.btn-bottom {
+    position: absolute;
+    left: 375px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: 460px;
+    margin-top: 20px;
+    width: 200px;
+    font-weight: 100;
+    height: 55px;
+    border-radius: 4px;
+    background-color: red;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    padding:0;
+    margin:0;
+    height: 400px;
+    display: flex;
+}
+
+.footer div {
+    width: 30%;
 }
