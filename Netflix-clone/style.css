@@ -377,8 +377,36 @@ div input{
     margin:0;
     height: 400px;
     display: flex;
+    justify-content: center;
+    margin-top: 60px;
 }
 
 .footer div {
     width: 30%;
+}
+
+.footer div li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer div li a {
+    color: white;
+}
+
+
+.footer div ul {
+    margin-left: 100px;
+}
+
+.footer div:nth-child(2) {
+    margin-top: 40px;
+}
+
+.footer div:nth-child(3) {
+    margin-top: 40px;
+}
+
+.footer div:nth-child(4) {
+    margin-top: 40px;
 }
